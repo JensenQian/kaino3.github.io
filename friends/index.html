@@ -5,18 +5,18 @@
   <meta charset="UTF-8" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="keywords" content="">
+<meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="温故而知新">
-<meta name="theme-color" content="">
+<meta name="theme-color" content="#000">
 <title>Gridea</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1636271660748">
-<link rel="stylesheet" href="/media/css/pisces.css">
+<link rel="shortcut icon" href="/favicon.ico?v=1636271790002">
+<link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
   href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
   rel="stylesheet" type="text/css">
 
-<link href="/media/hljs/styles/github.css"
+<link href="/media/hljs/styles/default.css"
   rel="stylesheet">
 
 <link rel="stylesheet" href="/styles/main.css">
@@ -47,7 +47,7 @@
   <div class="head-top-line"></div>
   <div class="header-box">
     
-<div class="pisces">
+<div class="gemini">
   <header class="header  ">
     <div class="blog-header box-shadow-wrapper bg-color " id="header">
       <div class="nav-toggle" id="nav_toggle">
@@ -66,55 +66,89 @@
           
         </div>
         
+          <p class="subtitle">精于心，简于形</p>
+        
       </div>
       <nav class="site-nav" id="site_nav">
         <ul id="nav_ul">
           
             
             
+              
+            
             <li class="nav-item ">
               
               
-                <a href="/" target="_self">
-                  <i class="fa fa-home"></i> 首页
-                </a>
+                
+                  <a href="/" target="_self">
+                    <i class="fa fa-home"></i> 首页
+                  </a>
+                
               
             </li>
           
             
             
+              
+            
             <li class="nav-item ">
               
               
-                <a href="/archives/" target="_self">
-                  <i class="fa fa-archive"></i> 归档
-                </a>
+                
+                  <a href="/archives/" target="_self">
+                    <i class="fa fa-archive"></i> 归档
+                  </a>
+                
               
             </li>
           
             
             
+              
+            
             <li class="nav-item ">
               
               
-                <a href="/tags/" target="_self">
-                  <i class="fa fa-tags"></i> 标签
-                </a>
+                
+                  <a href="/tags/" target="_self">
+                    <i class="fa fa-tags"></i> 标签
+                  </a>
+                
               
             </li>
           
             
             
+              
+            
             <li class="nav-item ">
               
               
-                <a href="/post/about/" target="_self">
-                  <i class="fa fa-user"></i> 关于
-                </a>
+                
+                  <a href="/post/about/" target="_self">
+                    <i class="fa fa-user"></i> 关于
+                  </a>
+                
               
             </li>
           
           
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
           
         </ul>
       </nav>
@@ -147,21 +181,21 @@
   <div class="main-continer">
     
       <div
-        class="section-layout pisces ">
+        class="section-layout gemini ">
         <div class="section-layout-wrapper">
           <div id="sidebarMeta" class="sidebar">
     
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
-    <p class="site-author-name"></p>
+    <p class="site-author-name">我是谁</p>
     
   </div>
   <div class="sidebar-item side-item-stat right-motion">
     <div class="sidebar-item-box">
       <a href="/archives/">
         
-        <span class="site-item-stat-count">0</span>
+        <span class="site-item-stat-count">1</span>
         <span class="site-item-stat-name language" data-lan="article">文章</span>
       </a>
     </div>
@@ -174,9 +208,14 @@
   </div>
   
     
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://JensenChie.github.io/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
   
-  
-
   
 
 
@@ -185,7 +224,7 @@
 </div>
 <script>
   let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = '';
+  let scheme = 'gemini';
   let sidebarWrapper = document.querySelector('.sidebar-wrapper');
   if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
     document.addEventListener('scroll', function(e) {
@@ -197,13 +236,15 @@
     });
   }
   </script>
-            <div class="section-box pisces box-shadow-wrapper">
+            <div class="section-box gemini box-shadow-wrapper">
               <section class="friends-section bg-color slide-down-in">
                 <div class="firends-box" align="center">
                   <h1 class="firends-title" itemprop="name headline">
-                    
+                    友情链接
                   </h1>
                   
+                    
+                        
                 </div>
                 <hr>
                 <div style="text-align:center">
@@ -316,21 +357,15 @@
   </footer>
   
     
-        <div class="pisces back-to-top" id="back_to_top">
+        <div class="gemini back-to-top" id="back_to_top">
           <i class="fa fa-arrow-up"></i>
           
             <span class="scrollpercent"> <span id="back_to_top_text">0</span>% </span>
             
         </div>
         
-          
-            
-                
                   
                         
-                          
-
-                            
 </div>
 <script>
   let sideBarOpen = "sidebar-open";
@@ -476,7 +511,7 @@
   }
 
   // 链接跳转
-  let newWindow = "";
+  let newWindow = "true";
   if (newWindow === "true") {
     let links = document.querySelectorAll(".post-body a");
     links.forEach((item) => {
@@ -531,6 +566,177 @@
   </div>
 </body>
 
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://JensenChie.github.io/post/xiao-ruan-jian-an-li-xiao-mi-hu-chuan-hu-chuan-lian-meng-de-du-neng-yong-2021-nian-geng-xin/"" data-c="
+          &lt;p&gt;2021年更新&lt;br&gt;
+互传联盟的成员也边得多起来了，国内基本上的手机厂商都加进来了&lt;br&gt;
+&lt;img src=&#34;https://p.qlogo.cn/zc_icon/0/c2d51a9c5f890aa41b1c5a9319a2ac4916358602544278/0.png&#34; alt=&#34;请输入图片描述&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+小米的MIUI12.5的更新带来了MIUI+的更新也变得功能越来越多了&lt;br&gt;
+https://plus.miui.com/&lt;/p&gt;
+&lt;p&gt;下载地址：https://www.mi.com/service/bijiben/drivers/A10&lt;br&gt;
+&lt;img src=&#34;https://p.qlogo.cn/zc_icon/0/89c0dd52afc41b0f5611334010c84f7316358602880057/0.png&#34; alt=&#34;download&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+如果是iPhone和windows之间传文件的话你们可以尝试下苹果母公司-锤子的handshaker，就是两年多没更新了，不知道还能不能用了https://www.smartisan.com/apps/#/handshaker&lt;br&gt;
+具体的看下这个贴子https://www.xiaomi.cn/post/18786615&lt;br&gt;
+和这个视频https://www.bilibili.com/video/av412633455?p=1&lt;br&gt;
+感谢&lt;br&gt;
+1Q:这玩意用来干啥的？&lt;br&gt;
+类似于苹果的airdrop隔空投送，华为的一碰传之类的.电脑和手机之间传文件用的，比蓝牙和QQ快很多，当然你家里有nas或者路由插U盘的当我没说&lt;br&gt;
+2Q支持的手机型号？&lt;br&gt;
+手机不止支持小米，OPPO,VIVO.realme最近两三年的机子都是可以的，具体的看下小米社区的那个贴子里这几家去年整了个互传联盟，具体的型号自己看下支不支持，手机上不用下任何软件&lt;br&gt;
+3支持的电脑的型号&lt;br&gt;
+也不需要是小米的才行，小米社区那篇贴子只说小米的笔记本才可以，笔记本台式机其实都是可以的，主要看网卡支不支持，&lt;br&gt;
+支持的网卡型号&lt;br&gt;
+[spoil 1)Intel(英特尔)：3165/3168/7260/7265/8260/8265/9462/9560/ax200/ax201；&lt;br&gt;
+2)Qualcomm(高通)：QCA6174A(Redmi锐龙版定制)；&lt;br&gt;
+3)Realtek(瑞昱)：暂不能原生支持，需要禁用MAFSvr服务；&lt;br&gt;
+其中，Intel 7260/7265 网卡可以使用，但是速度会比较慢，ax200/ax201需要更新驱动至21.80.2.1或更高版本才能在WiFi6环境下与支持WiFi6的设备进行互传,Intel 3165需要禁用MAFSvr服务，无法保证传输速度与稳定性。[/spoil]&lt;br&gt;
+当然有些型号说不定也支持没写进去&lt;br&gt;
+我台式机插了个ax200上去加我的小米8还是能用的&lt;br&gt;
+&lt;img src=&#34;https://p.qlogo.cn/zc_icon/0/abd12710847b980bb6714e2781ce42cf16358603366533/0.png&#34; alt=&#34;mi8&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+AMD的显卡，AMD的cpu混进去了长intel的网卡是不是很奇怪阿，还好，显卡不是nvidia的，不然就更加奇怪了，大杂烩了&lt;br&gt;
+有个小问题，记得把网卡和蓝牙的驱动更新下。还有把设置-系统-投影至此电脑弄成始终关闭就行，还有就是这个是靠蓝牙认证然后wifi传的，传的时候两边都会断网&lt;br&gt;
+&lt;img src=&#34;https://p.qlogo.cn/zc_icon/0/a98b3ecf07a9187978b256d1a2dcdfee16358603724111/0.png&#34; alt=&#34;设置&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+2021年更新&lt;/p&gt;
+">小软件安利-小米互传 互传联盟的都能用（2021年更新）</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+    
       <input hidden id="copy" />
       <script>
         !function () {
