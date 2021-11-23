@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://JensenChie.github.io</id>
+    <id>https://kaino3.com</id>
     <title>Gridea</title>
-    <updated>2021-11-22T06:03:36.278Z</updated>
+    <updated>2021-11-23T12:23:09.670Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://JensenChie.github.io"/>
-    <link rel="self" href="https://JensenChie.github.io/atom.xml"/>
+    <link rel="alternate" href="https://kaino3.com"/>
+    <link rel="self" href="https://kaino3.com/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://JensenChie.github.io/images/avatar.png</logo>
-    <icon>https://JensenChie.github.io/favicon.ico</icon>
+    <logo>https://kaino3.com/images/avatar.png</logo>
+    <icon>https://kaino3.com/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[小软件安利-小米互传 互传联盟的都能用（2021年更新）]]></title>
-        <id>https://JensenChie.github.io/post/xiao-ruan-jian-an-li-xiao-mi-hu-chuan-hu-chuan-lian-meng-de-du-neng-yong-2021-nian-geng-xin/</id>
-        <link href="https://JensenChie.github.io/post/xiao-ruan-jian-an-li-xiao-mi-hu-chuan-hu-chuan-lian-meng-de-du-neng-yong-2021-nian-geng-xin/">
+        <title type="html"><![CDATA[steam常用挂卡软件+卖卡脚本]]></title>
+        <id>https://kaino3.com/post/20200909/</id>
+        <link href="https://kaino3.com/post/20200909/">
         </link>
-        <updated>2021-11-07T07:54:28.000Z</updated>
+        <updated>2020-09-09T12:21:51.000Z</updated>
+        <content type="html"><![CDATA[<p>【v3.2.0.2更新】ASF升级V3全教程（Windows OS） ...<br>
+https://keylol.com/t301016-1-1<br>
+asf放在服务器上，如果你有空闲电脑的话放电脑上，然后记得挂着加速器或者302反代工具<br>
+steamcommunity 302 Ver.10.5<br>
+https://keylol.com/t339527-1-1<br>
+魔改版本的idle，不过steam要开着,也要挂着加速器或302反代工具[2月11更新]Idle Master HTTPS 修复版本 (更新支持Steam ...<br>
+https://keylol.com/t367755-1-1<br>
+2020-03-05更新 Idle Master Extended v1.4最终版的修补版 (Idle Master 1.4.1) 超速挂卡<br>
+https://keylol.com/t464477-1-1<br>
+手机版本的Idle Daddy(Steam挂卡)<br>
+酷安链接https://www.coolapk.com/game/com.steevsapps.idledaddy或者play商店直接下，用的时候挂着UU加速器，加速移动端的steam移动端<br>
+有旧手机用着<br>
+Idle Daddy使用指南，教你真正无时无刻都在挂卡 ...<br>
+https://keylol.com/t590533-1-1<br>
+(出处: 其乐 Keylol)<br>
+iPhone的话用这个https://apps.apple.com/cn/app/id1453118472<br>
+卖卡的话用脚本<br>
+[191018：更新6.8.1] 安利脚本：Steam Economy Enhancer<br>
+https://keylol.com/t311996-1-1</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[穷人的wifi6-TY400]]></title>
+        <id>https://kaino3.com/post/20200523/</id>
+        <link href="https://kaino3.com/post/20200523/">
+        </link>
+        <updated>2020-05-23T12:20:40.000Z</updated>
+        <content type="html"><![CDATA[<p>之前看到有人推荐这东西，闲鱼上捡了个，百十来块，某地装宽带送的，最便宜的wifi6路由器了<br>
+不推荐普通人购买，小米ax1800,华为ax3（pro）几款廉价的wifi6路由都来了，不要买整个，一没保修二固件也烂<br>
+<img src="https://p.qlogo.cn/zc_icon/0/13430cca1519f71d025a41ac4900448216361869468876/0.png" alt="盒子前面" loading="lazy"><br>
+一个usb口，两个千兆lan口，一个wan口<br>
+<img src="https://p.qlogo.cn/zc_icon/0/21ad9a9798f5b1841a1d39a7c1f90e5616361867546339/0.png" alt="参数" loading="lazy"></p>
+<p>盒子后面介绍的参数<br>
+<img src="https://p.qlogo.cn/zc_icon/0/6d5e0174d3952283f4dc5ce11c40f79416361869661324/0.png" alt="后" loading="lazy"><br>
+CPU型号是BCM6750，拥有三个核心，频率1.5GHz。它集成了5G WIFI6，支持2x2mimo、1024-QAM、OFDMA，在80MHz频宽下最高无线速率1.2Gbps。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小软件安利-小米互传 互传联盟的都能用（2021年更新）]]></title>
+        <id>https://kaino3.com/post/20200517/</id>
+        <link href="https://kaino3.com/post/20200517/">
+        </link>
+        <updated>2020-05-17T07:54:28.000Z</updated>
         <content type="html"><![CDATA[<p>2021年更新<br>
 互传联盟的成员也边得多起来了，国内基本上的手机厂商都加进来了<br>
 <img src="https://p.qlogo.cn/zc_icon/0/c2d51a9c5f890aa41b1c5a9319a2ac4916358602544278/0.png" alt="请输入图片描述" loading="lazy"><br>
