@@ -2061,13 +2061,13 @@ body {
         margin: 0 auto;
       }
     body {
-      color: #555;
+      color: #212529;
     }
     .next-md-body {
-      color: #555;
+      color: #212529;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #555;
+      border-bottom-color: #212529;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
       background: #eeeeeefe;
@@ -2112,7 +2112,7 @@ body {
       background-color:  !important;
     }
       .nav-item a {
-        color:  #555;
+        color:  #212529;
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
@@ -2162,7 +2162,7 @@ body {
      
     }
     .head-top-line {
-      background: #e03131;
+      background: #212529;
     }
     .brand {
   
