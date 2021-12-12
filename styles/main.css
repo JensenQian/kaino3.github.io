@@ -2050,7 +2050,7 @@ p > code {
   }
 }
 body {
-      background-color: #212529;
+      background-color: #eee;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -2061,13 +2061,13 @@ body {
         margin: 0 auto;
       }
     body {
-      color: #212529;
+      color: #555;
     }
     .next-md-body {
-      color: #212529;
+      color: #555;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #212529;
+      border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
       background: #eeeeeefe;
@@ -2112,7 +2112,7 @@ body {
       background-color:  !important;
     }
       .nav-item a {
-        color:  #212529;
+        color:  #555;
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
@@ -2156,22 +2156,22 @@ body {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #f8f9fafe;
+      background-color: #fffffffe;
     }
     .site-meta {
      
     }
     .head-top-line {
-      background: #212529;
+      background: #000;
     }
     .brand {
   
     }
     .main-title, .brand {
-      color: #212529 !important;
+      color: #FFF !important;
     }
     .mist .site-title i {
-      background: #212529fe;
+      background: #FFFFFFfe;
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {

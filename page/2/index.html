@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="keywords" content="硝酸凯的部落格">
+<meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="一个孤独的人">
-<meta name="theme-color" content="#212529">
+<meta name="theme-color" content="#000">
 <title>硝酸凯的部落格</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1639309984570">
-<link rel="stylesheet" href="/media/css/gemini.css">
+<link rel="shortcut icon" href="/favicon.ico?v=1639310632112">
+<link rel="stylesheet" href="/media/css/pisces.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
   href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
@@ -47,7 +47,7 @@
   <div class="head-top-line"></div>
   <div class="header-box">
     
-<div class="gemini">
+<div class="pisces">
   <header class="header  ">
     <div class="blog-header box-shadow-wrapper bg-color " id="header">
       <div class="nav-toggle" id="nav_toggle">
@@ -66,6 +66,8 @@
           
         </div>
         
+          <p class="subtitle">精于心，简于形</p>
+        
       </div>
       <nav class="site-nav" id="site_nav">
         <ul id="nav_ul">
@@ -77,11 +79,9 @@
             <li class="nav-item nav-item-active">
               
               
-                
-                  <a href="/" target="_self">
-                    <i class="fa fa-home"></i> 首页
-                  </a>
-                
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
               
             </li>
           
@@ -92,11 +92,9 @@
             <li class="nav-item ">
               
               
-                
-                  <a href="/archives/" target="_self">
-                    <i class="fa fa-archive"></i> 归档
-                  </a>
-                
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
               
             </li>
           
@@ -107,11 +105,9 @@
             <li class="nav-item ">
               
               
-                
-                  <a href="/post/about/" target="_self">
-                    <i class="fa fa-user"></i> 关于
-                  </a>
-                
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
               
             </li>
           
@@ -164,23 +160,14 @@
   <div class="main-continer">
     
     <div
-      class="section-layout gemini ">
+      class="section-layout pisces ">
       <div class="section-layout-wrapper">
         <div id="sidebarMeta" class="sidebar">
     
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
-    <p class="site-author-name">JensenQian</p>
-    
-    <div class="site-description right-motion">
-      
-      
-      
-        <p>吃饭达人</p>
-      
-      
-    </div>
+    <p class="site-author-name">我是谁</p>
     
   </div>
   <div class="sidebar-item side-item-stat right-motion">
@@ -200,13 +187,6 @@
   </div>
   
     
-      <div class="sidebar-item">
-        <span class="site-item-rss">
-            <i class="fa fa-rss"></i>
-            <a href="https://kaino3.com/atom.xml" target="_blank">RSS</a>
-        </span>
-      </div>
-    
   
   
 
@@ -216,7 +196,7 @@
 </div>
 <script>
   let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = 'gemini';
+  let scheme = 'pisces';
   let sidebarWrapper = document.querySelector('.sidebar-wrapper');
   if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
     document.addEventListener('scroll', function(e) {
@@ -228,8 +208,8 @@
     });
   }
   </script>
-        <div class="section-box gemini">
-          <section class="section  posts-expand slide-down-in">
+        <div class="section-box pisces">
+          <section class="section bg-color posts-expand slide-down-in">
             
   <article class="post-list-box  post box-shadow-wrapper">
     <div class="article-wrapper bg-color">
@@ -304,6 +284,10 @@ asf放在服务器上，如果你有空闲电脑的话放电脑上，然后记�
         </div>
         
       </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
       
     </div>
   </article>
@@ -382,6 +366,10 @@ asf放在服务器上，如果你有空闲电脑的话放电脑上，然后记�
         
       </div>
       
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
     </div>
   </article>
 
@@ -458,6 +446,10 @@ asf放在服务器上，如果你有空闲电脑的话放电脑上，然后记�
         </div>
         
       </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
       
     </div>
   </article>
@@ -575,7 +567,7 @@ target="_blank">Gridea</a>
   </footer>
   
     
-        <div class="gemini back-to-top" id="back_to_top">
+        <div class="pisces back-to-top" id="back_to_top">
           <i class="fa fa-arrow-up"></i>
           
             <span class="scrollpercent"> <span id="back_to_top_text">0</span>% </span>
@@ -729,7 +721,7 @@ target="_blank">Gridea</a>
   }
 
   // 链接跳转
-  let newWindow = "true";
+  let newWindow = "false";
   if (newWindow === "true") {
     let links = document.querySelectorAll(".post-body a");
     links.forEach((item) => {
