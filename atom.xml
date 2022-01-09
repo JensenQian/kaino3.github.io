@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.kaino3.com</id>
+    <id>https://www.kaino3.com</id>
     <title>硝酸凯的部落格</title>
-    <updated>2022-01-09T13:13:22.482Z</updated>
+    <updated>2022-01-09T13:13:43.386Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.kaino3.com"/>
-    <link rel="self" href="https://blog.kaino3.com/atom.xml"/>
+    <link rel="alternate" href="https://www.kaino3.com"/>
+    <link rel="self" href="https://www.kaino3.com/atom.xml"/>
     <subtitle>一个孤独的人</subtitle>
-    <logo>https://blog.kaino3.com/images/avatar.png</logo>
-    <icon>https://blog.kaino3.com/favicon.ico</icon>
+    <logo>https://www.kaino3.com/images/avatar.png</logo>
+    <icon>https://www.kaino3.com/favicon.ico</icon>
     <rights>All rights reserved 2022, 硝酸凯的部落格</rights>
     <entry>
         <title type="html"><![CDATA[K40开箱]]></title>
-        <id>https://blog.kaino3.com/20210618/</id>
-        <link href="https://blog.kaino3.com/20210618/">
+        <id>https://www.kaino3.com/20210618/</id>
+        <link href="https://www.kaino3.com/20210618/">
         </link>
         <updated>2021-06-18T12:27:58.000Z</updated>
         <content type="html"><![CDATA[<p>今年888翻车了，本来想把我的米8换成11的，但是观望了下，买个K40也不错，米8其实也不卡，但是他没有5G，它没有高刷，于是换了吧<br>
@@ -35,8 +35,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[移动nfc-sim公交卡分享]]></title>
-        <id>https://blog.kaino3.com/20210310/</id>
-        <link href="https://blog.kaino3.com/20210310/">
+        <id>https://www.kaino3.com/20210310/</id>
+        <link href="https://www.kaino3.com/20210310/">
         </link>
         <updated>2021-03-10T12:26:24.000Z</updated>
         <content type="html"><![CDATA[<p>移动去年整了个超级sim卡的，比起以前的nfc-sim卡只能刷公交强大很多，还能拿来当门禁卡，U盾之类的功能，但是这些不提，最有用的其实还是公交卡功能电信和联通应该也有类似的<br>
@@ -55,8 +55,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[AMD水泥硅脂]]></title>
-        <id>https://blog.kaino3.com/20210301/</id>
-        <link href="https://blog.kaino3.com/20210301/">
+        <id>https://www.kaino3.com/20210301/</id>
+        <link href="https://www.kaino3.com/20210301/">
         </link>
         <updated>2021-03-01T12:25:00.000Z</updated>
         <content type="html"><![CDATA[<p>上个月1800把我用了两年的rx580满血版出给矿老板，1300买的，白用两年，不过现在好像涨到都快2300了，我好像出早了，然后用撑了用笔记本用了几天，后面干脆又把我的2600给600顺丰包邮出给坛友了，然后闲鱼650收了个2400G，然后用到了前几天想清下灰，我当时也不知道脑子怎么一热，想清灰的，然后拆的时候，忘记热机了，因为前几次我拆的时候也没热机，然后遇到了喜闻乐见的场景，拔出散热器带出cpu，用的硅脂是我朋友装机用剩下的水泥tf7，之前都是mx4，结果出事了吧，真的是常在河边走哪有不湿鞋的，由你奸似鬼，吃了老娘的洗脚水<br>
@@ -68,8 +68,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[小米65W氮化镓开箱]]></title>
-        <id>https://blog.kaino3.com/20200912/</id>
-        <link href="https://blog.kaino3.com/20200912/">
+        <id>https://www.kaino3.com/20200912/</id>
+        <link href="https://www.kaino3.com/20200912/">
         </link>
         <updated>2020-09-12T12:23:17.000Z</updated>
         <content type="html"><![CDATA[<p>前几天狗东自营65W氮化镓打折，才123，冲动之下买了，先是正面和背面，之前因为某些原因下架了，现在修复了又上架了<br>
